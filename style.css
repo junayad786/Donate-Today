@@ -1,11 +1,10 @@
 #{
  margin: 0;
-padding: 0;
 }
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: rgb(224, 224, 232);
     line-height: 1.5;
@@ -15,8 +14,12 @@ body {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    display: row;
     text-align: center;
+    height: 100vh;
+}
+.start-point {
+    padding-top: 150px;
 }
 
 .button {
@@ -25,4 +28,97 @@ body {
     background-color: red;
     padding: 10px;
     border-radius: 5px;
+}
+
+.description-area {
+    display: row;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.donation-amount a {
+margin: 10px;
+padding: 10px;
+text-decoration: none;
+background-color: gray;
+border: ;
+}
+.color{
+    color: red;
+}
+.order-amount a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 10px;
+    border-radius: 2px;
+}
+.half-width {
+width: 50%;
+}
+.help-people {
+    text-align: center;
+    color: black;
+    margin: 10px;
+    padding: 50px;
+}
+.box-one {
+    background-color: palevioletred;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.box-two {
+    background-color: aqua;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.box-three {
+    background-color: rgb(165, 152, 251);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.three-items {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.donating-poor {
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+}
+.donate-poor {
+    display: flex;
+}
+.img-sector {
+    width: 50%;
+}
+.para-graph {
+    color: black;
+    text-align: center;
+    width: 50%;
+    padding-top: 150px;
+}
+.help-poor {
+    display: flex;
+}
+.image-sector {
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 450px;
+}
+.updates-part {
+    color: black; 
+    text-align: center;
+}
+.email-part {
+    text-align: center;
+}
+footer p{
+    color: black;
+    text-align: center;
 }
